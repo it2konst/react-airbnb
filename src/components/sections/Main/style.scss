@@ -1,0 +1,12 @@
+// .main__cards {
+//     display: flex;
+//     align-items: center;
+//     flex-wrap: wrap;
+//     gap: 24px;
+// }
+
+.main__cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 40px 24px;
+}
