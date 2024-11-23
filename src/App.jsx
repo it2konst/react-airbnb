@@ -1,7 +1,7 @@
 // import React from "react";
-import Footer from "./components/Footer";
-import Header from "./components/Header/Header";
-import Main from "./components/Main";
+import Header from "./components/sections/Header/Header";
+import Main from "./components/sections/Main/Main";
+import Footer from "./components/sections/Footer/Footer";
 
 function App() {
     return (

@@ -1,0 +1,23 @@
+.btn {
+    padding: 0 20px;
+    height: 24px;
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.57;
+    color: #222;
+
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
+
+    &--active {
+        font-weight: 400;
+        color: #717171;
+    }
+}

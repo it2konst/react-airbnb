@@ -2,6 +2,8 @@
 @import "./vars.scss";
 
 body {
-    background-color: #555;
-    color: #ccc;
+    font-family: var(--font-family);
+    color: var(--text-color);
+
+    background-color: #aaa;
 }
